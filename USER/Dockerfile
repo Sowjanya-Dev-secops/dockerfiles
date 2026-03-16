@@ -1,6 +1,6 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-RUN useradd siva
+RUN useradd sowjanya
 
-USER siva
+USER sowjanya
 CMD ["sleep","1000"]
